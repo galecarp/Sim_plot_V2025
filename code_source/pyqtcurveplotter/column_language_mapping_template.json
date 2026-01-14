@@ -1,0 +1,68 @@
+{
+  "_comment": "列名多语言映射配置文件",
+  "_description": "此文件定义了数据列名在不同语言下的显示名称",
+  "_supported_languages": ["zh_CN", "en_US", "de_DE", "ja_JP"],
+  
+  "timestamp": {
+    "zh_CN": "时间戳",
+    "en_US": "Timestamp",
+    "de_DE": "Zeitstempel",
+    "ja_JP": "タイムスタンプ"
+  },
+  
+  "power_gen": {
+    "zh_CN": "发电功率 [MW]",
+    "en_US": "Power Generation [MW]",
+    "de_DE": "Stromerzeugung [MW]",
+    "ja_JP": "発電電力 [MW]"
+  },
+  
+  "power_load": {
+    "zh_CN": "负载功率 [MW]",
+    "en_US": "Load Power [MW]",
+    "de_DE": "Lastleistung [MW]",
+    "ja_JP": "負荷電力 [MW]"
+  },
+  
+  "temp_ambient": {
+    "zh_CN": "环境温度 [°C]",
+    "en_US": "Ambient Temperature [°C]",
+    "de_DE": "Umgebungstemperatur [°C]",
+    "ja_JP": "周囲温度 [°C]"
+  },
+  
+  "efficiency": {
+    "zh_CN": "效率 [%]",
+    "en_US": "Efficiency [%]",
+    "de_DE": "Wirkungsgrad [%]",
+    "ja_JP": "効率 [%]"
+  },
+  
+  "soc": {
+    "zh_CN": "荷电状态 [%]",
+    "en_US": "State of Charge [%]",
+    "de_DE": "Ladezustand [%]",
+    "ja_JP": "充電状態 [%]"
+  },
+  
+  "h2_production": {
+    "zh_CN": "制氢量 [kg/h]",
+    "en_US": "H₂ Production [kg/h]",
+    "de_DE": "H₂-Produktion [kg/h]",
+    "ja_JP": "水素生成量 [kg/h]"
+  },
+  
+  "wind_speed": {
+    "zh_CN": "风速 [m/s]",
+    "en_US": "Wind Speed [m/s]",
+    "de_DE": "Windgeschwindigkeit [m/s]",
+    "ja_JP": "風速 [m/s]"
+  },
+  
+  "solar_irradiance": {
+    "zh_CN": "太阳辐照度 [W/m²]",
+    "en_US": "Solar Irradiance [W/m²]",
+    "de_DE": "Sonneneinstrahlung [W/m²]",
+    "ja_JP": "日射量 [W/m²]"
+  }
+}

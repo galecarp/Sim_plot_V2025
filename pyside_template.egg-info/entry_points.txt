@@ -1,0 +1,4 @@
+[console_scripts]
+App = app.__main__:run_module
+AppNoUpdater = app.__main__:main_no_updater
+QmlDemo = qml_demo.__main__:main
